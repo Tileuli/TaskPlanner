@@ -55,13 +55,19 @@ TaskPlanner/
    The API will be available at `http://127.0.0.1:5500`
    Ensure the backend is running before testing task functionality.
 
-## API Endpoints
-| Method | Endpoint        | Description              |
-|--------|----------------|--------------------------|
-| GET    | `/tasks/`       | Get all tasks           |
-| POST   | `/tasks/`       | Create a new task       |
-| PUT    | `/tasks/{id}`   | Update a task by ID     |
-| DELETE | `/tasks/{id}`   | Delete a task by ID     |
+### Web Page:
+
+![image](https://github.com/user-attachments/assets/ba756c71-6f6a-4b9d-b2cf-9e20e1f5e242)
+
+
+### Add Task and Properties Sections:
+
+![image](https://github.com/user-attachments/assets/170b9922-5d6f-4bb2-89a1-23967d758723)
+![image](https://github.com/user-attachments/assets/57249daa-870b-4319-9601-2a3385d5f343)
+
+### FastAPI Page:
+
+![image](https://github.com/user-attachments/assets/010db2d1-2367-44fa-b42a-e9f1a32d571c)
 
 
 ## License
