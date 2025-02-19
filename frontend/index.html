@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="task-container">
+        <!-- To Do List -->
+        <div class="task-list" id="todo">
+            <h3>To Do</h3>
+            <div class="task-items"></div>
+            <button class="add-task-btn" onclick="toggleTaskForm(this)">+ Add Task</button>
+            <div class="task-form hidden">
+                <input type="text" class="title" placeholder="Enter title">
+                <textarea class="description" placeholder="Enter description"></textarea>
+                <input type="datetime-local" class="deadline">
+                <button class="save-task-btn" onclick="saveTask(this)">Done</button>
+            </div>
+        </div>
+
+        <!-- Doing List -->
+        <div class="task-list" id="doing">
+            <h3>Doing</h3>
+            <div class="task-items"></div>
+            <button class="add-task-btn" onclick="toggleTaskForm(this)">+ Add Task</button>
+            <div class="task-form hidden">
+                <input type="text" class="title" placeholder="Enter title">
+                <textarea class="description" placeholder="Enter description"></textarea>
+                <input type="datetime-local" class="deadline">
+                <button class="save-task-btn" onclick="saveTask(this)">Done</button>
+            </div>
+        </div>
+
+        <!-- In Review List -->
+        <div class="task-list" id="inreview">
+            <h3>In Review</h3>
+            <div class="task-items"></div>
+            <button class="add-task-btn" onclick="toggleTaskForm(this)">+ Add Task</button>
+            <div class="task-form hidden">
+                <input type="text" class="title" placeholder="Enter title">
+                <textarea class="description" placeholder="Enter description"></textarea>
+                <input type="datetime-local" class="deadline">
+                <button class="save-task-btn" onclick="saveTask(this)">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
