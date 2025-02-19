@@ -4,7 +4,6 @@ from backend.routes import router
 
 app = FastAPI()
 
-# CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
